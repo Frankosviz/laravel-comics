@@ -21,7 +21,8 @@
     <main>
         @yield('content')
     </main> 
-    @include('partials.articles')
+    <!-- Problemi con l'accoppiamento dei dati per la sezione articles -->
+    @include ('partials.about')
     @include('partials.footer')
 </body>
 

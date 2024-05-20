@@ -116,6 +116,8 @@ a {
 .fd-style {
     height: 150px;
     background-color: $maincolor;
+    display: flex;
+    justify-content: center;
 }
 
 .containerArticles {
@@ -137,6 +139,119 @@ a {
     margin: 0 auto;
     &:hover {
         filter: invert(1);
+        cursor: pointer;
+    }
+}
+
+// About css
+
+.fd-followUs-style {
+    height: 450px;
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+}
+
+.h2About {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    &:hover {
+        color: $maincolor;
+        cursor: pointer;
+    }
+}
+
+.imgAbout {
+    position: absolute;
+    right: 0;
+    top: -80px;
+
+    &:hover {
+        filter: invert(1);
+    }
+}
+
+.cropped {
+    width: 600px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.ulAbout {
+    list-style-type: none;
+    line-height: 30px;
+    color: white;
+}
+
+.aAbout {
+    text-decoration: none;
+    color: $textcolor;
+    font-weight: normal;
+    font-size: 13px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Footer style
+
+.fd-footer-style {
+    height: 100px;
+    background-color: #303030;
+}
+
+.fd-style-footer {
+    padding-top: 10px
+}
+
+
+.containerFooter {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.fd-button-footer {
+    background-color: #303030;
+    color: white;
+    border: 2px solid $maincolor;
+    padding: 10px 10px;
+    margin: auto 0;
+
+    &:hover {
+        background-color: $maincolor;
+        color: white;
+    }
+}
+
+.liFooter {
+    background-color: $textcolor;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+}
+
+.aFooter {
+    text-decoration: none;
+}
+
+.h2Footer {
+    color: $maincolor;
+    font-size: 20px;
+    margin: auto 0;
+    &:hover {
+        color: white;
         cursor: pointer;
     }
 }
