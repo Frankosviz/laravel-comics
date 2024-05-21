@@ -5,6 +5,6 @@
 <!-- Con section andiamo a modificare il 'content' con una semplice stringa o con un template -->
 @section('content')
     <h1>Shop</h1>
-    <p class="fw-bold">Qui verranno inseriti i 'Shop'</p>
+    <p class="fw-bold">Qui verra inserito lo 'Shop'</p>
 <!-- Ricordarsi di inserire l'endsection per chiudere la sessione -->
 @endsection

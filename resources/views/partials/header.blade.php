@@ -1,50 +1,69 @@
 <header>
-    <div class="containerFD d-flex justify-content-between bg-white">
+    <div class="containerFD d-flex justify-content-around bg-white">
         <div class="d-flex align-items-center justify-content-center me-5">
-            <a href="{{ route('homepage') }}"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo"></a>
+            <a class="ms-3" href="{{ route('homepage') }}"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}"
+                    alt="Logo"></a>
         </div>
         <div>
             <ul class="d-flex align-items-center justify-content-center gap-5 list-unstyled  ">
                 <li class="active">
-                    <a class="nav-link {{ Route::currentRouteName() == 'comics' ? 'active' : ''}}" href="{{route('comics')}}">
-                    Comics
+                    <a class="nav-link {{ Route::currentRouteName() == 'comics' ? 'active' : ''}}"
+                        href="{{route('comics')}}">
+                        Comics
+                    </a>
                 </li>
                 <li class="active">
                     <a class="nav-link {{ Route::currentRouteName() == 'characters' ? 'active' : ''}}"
                         href="{{route('characters')}}">
-                    Characters
+                        Characters
+                    </a>
                 </li>
                 <li class="active">
-                    <a class="nav-link {{ Route::currentRouteName() == 'movies' ? 'active' : ''}}" href="{{route('movies')}}">
-                    Movies
+                    <a class="nav-link {{ Route::currentRouteName() == 'movies' ? 'active' : ''}}"
+                        href="{{route('movies')}}">
+                        Movies
+                    </a>
                 </li>
                 <li class="active">
                     <a class="nav-link {{ Route::currentRouteName() == 'tv' ? 'active' : ''}}" href="{{route('tv')}}">
-                    TV
+                        TV
+                    </a>
                 </li>
                 <li class="active">
-                    <a class="nav-link {{ Route::currentRouteName() == 'games' ? 'active' : ''}}" href="{{route('games')}}">
-                    Games
+                    <a class="nav-link {{ Route::currentRouteName() == 'games' ? 'active' : ''}}"
+                        href="{{route('games')}}">
+                        Games
+                    </a>
                 </li>
                 <li class="active">
                     <a class="nav-link {{ Route::currentRouteName() == 'collectibles' ? 'active' : ''}}"
                         href="{{route('collectibles')}}">
-                    Collectibles
+                        Collectibles
+                    </a>
                 </li>
                 <li class="active">
-                    <a class="nav-link {{ Route::currentRouteName() == 'videos' ? 'active' : ''}}" href="{{route('videos')}}">
-                    Videos
+                    <a class="nav-link {{ Route::currentRouteName() == 'videos' ? 'active' : ''}}"
+                        href="{{route('videos')}}">
+                        Videos
+                    </a>
                 </li>
                 <li class="active">
-                    <a class="nav-link {{ Route::currentRouteName() == 'fans' ? 'active' : ''}}" href="{{route('fans')}}">
-                    Fans
+                    <a class="nav-link {{ Route::currentRouteName() == 'fans' ? 'active' : ''}}"
+                        href="{{route('fans')}}">
+                        Fans
+                    </a>
                 </li>
                 <li class="active">
-                    <a class="nav-link {{ Route::currentRouteName() == 'news' ? 'active' : ''}}" href="{{route('news')}}">
-                    News
+                    <a class="nav-link {{ Route::currentRouteName() == 'news' ? 'active' : ''}}"
+                        href="{{route('news')}}">
+                        News
+                    </a>
                 </li>
                 <li class="active">
-                    <a class="nav-link {{ Route::currentRouteName() == 'shop' ? 'active' : ''}}" href="{{route('shop')}}">
+                    <a class="nav-link {{ Route::currentRouteName() == 'shop' ? 'active' : ''}}"
+                        href="{{route('shop')}}">
+                        Shop
+                    </a>
                 </li>
             </ul>
         </div>
